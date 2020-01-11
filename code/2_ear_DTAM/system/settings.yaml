@@ -1,0 +1,24 @@
+%YAML:1.0
+
+# ahanda data
+# Data: https://github.com/anuranbaka/OpenDTAM/tree/8424c0b02bfc56d62e2933fe06b1155c79ad7ead/Trajectory_30_seconds
+# Config: https://github.com/ravich2-7183/openDTAM/blob/master/data/openDTAM_settings_ahanda.yaml
+
+camera.width: 760
+camera.height: 760
+camera.fx: 714.28
+camera.fy: 714.28
+camera.cx: 380.0
+camera.cy: 380.0
+
+mapper.costvolume.depth_layers: 100
+mapper.costvolume.min_inv_depth: 0.003
+mapper.costvolume.max_inv_depth: 0.1
+mapper.regularizer.alpha_G: 100.0
+mapper.regularizer.beta_G: 1.6
+mapper.optimizer.epsilon: 0.00147
+mapper.optimizer.lambda: 0.2
+mapper.optimizer.theta_begin: 0.2
+mapper.optimizer.theta_end: 1.0e-4
+mapper.max_frames_per_costvolume: 500
+mapper.n_iters: 10
